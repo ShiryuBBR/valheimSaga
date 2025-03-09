@@ -1,7 +1,7 @@
 ﻿# Вы можете расположить сценарий своей игры в этом файле.
 
 # Определение персонажей игры.
-define e = Character('Эйлин', color="#c8ffc8")
+define troll = Character('Троль', color="#0050fc")
 
 # Вместо использования оператора image можете просто
 # складывать все ваши файлы изображений в папку images.
@@ -11,12 +11,12 @@ define e = Character('Эйлин', color="#c8ffc8")
 # Игра начинается здесь:
 label start:
 
-    scene bg room
-
-    show eileen happy
+    scene bg plains
 
     "Я вахуе"
 
-    e "помогите"
+    show troll basic
+
+    troll "ЫВАОКПУОКАОЫДМЬДЫЖВАДУЦАДЗХВ"
 
     return
